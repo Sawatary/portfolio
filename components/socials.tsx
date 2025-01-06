@@ -4,7 +4,6 @@ import tgIcon from "@/public/icons/telegram.png";
 import vkIcon from "@/public/icons/Vk.png";
 import Link from "next/link";
 import Image from "next/image";
-import { Icon } from "lucide-react";
 
 const items = [
   {
