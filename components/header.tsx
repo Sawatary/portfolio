@@ -35,7 +35,8 @@ const Header = ({
         />
       </Link>
       <h2 className="align-text-center text-1xl text-center">
-        Kirill Lee<br />
+        Kirill Lee
+        <br />
         Frontend Developer
       </h2>
       <ul className="flex items-center justify-center gap-3 text-xs md:text-sm lg:gap-6">

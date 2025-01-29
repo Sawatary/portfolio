@@ -7,11 +7,11 @@ const skills = [
     title: "Frontend",
     items: [
       "React",
-      "Next.js",
+      "NextJS",
       "TailwindCSS",
       "Motion",
       "Material UI",
-      "Ant Design",
+      "Ant-Design",
     ],
   },
   {
