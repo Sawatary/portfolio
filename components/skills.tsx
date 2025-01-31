@@ -1,22 +1,15 @@
 const skills = [
   {
-    title: "Languages",
-    items: ["JavaScript", "TypeScript", "Python"],
+    title: 'Languages',
+    items: ['JavaScript', 'TypeScript', 'Python'],
   },
   {
-    title: "Frontend",
-    items: [
-      "React",
-      "NextJS",
-      "TailwindCSS",
-      "Motion",
-      "Material UI",
-      "Ant-Design",
-    ],
+    title: 'Frontend',
+    items: ['React', 'NextJS', 'TailwindCSS', 'Motion', 'Material UI', 'Ant-Design'],
   },
   {
-    title: "Tools",
-    items: ["Git", "GitHub", "GitLab", "VSCode", "Figma", "Photoshop"],
+    title: 'Tools',
+    items: ['Git', 'GitHub', 'GitLab', 'VSCode', 'Figma', 'Photoshop'],
   },
 ];
 

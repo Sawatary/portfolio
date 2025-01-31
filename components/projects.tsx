@@ -1,44 +1,26 @@
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import Image from "next/image";
-import Link from "next/link";
-import { Button } from "./ui/button";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Button } from './ui/button';
 
 const items = [
   {
-    name: "Todos App",
-    technologies: ["React", "TypeScript", "SCSS", "TailwindCSS"],
-    preview: "/projects/todos.gif",
-    website: "https://todolist-v2-cyan.vercel.app/",
+    name: 'Todos App',
+    technologies: ['React', 'TypeScript', 'SCSS', 'TailwindCSS'],
+    preview: '/projects/todos.gif',
+    website: 'https://todolist-v2-cyan.vercel.app/',
   },
   {
-    name: "Aviasales Clone",
-    technologies: [
-      "React",
-      "TypeScript",
-      "TailwindCSS",
-      "Redux Toolkit",
-      "RTK Query",
-    ],
-    preview: "/projects/aviasales.gif",
-    website: "https://aviasales-beta-drab.vercel.app/",
+    name: 'Aviasales Clone',
+    technologies: ['React', 'TypeScript', 'TailwindCSS', 'Redux Toolkit', 'RTK Query'],
+    preview: '/projects/aviasales.gif',
+    website: 'https://aviasales-beta-drab.vercel.app/',
   },
   {
-    name: "Movies App",
-    technologies: [
-      "React",
-      "TypeScript",
-      "Ant Design",
-      "Redux Toolkit",
-      "RTK Query",
-    ],
-    preview: "/projects/movies.gif",
-    website: "https://movies-db-one-psi.vercel.app/",
+    name: 'Movies App',
+    technologies: ['React', 'TypeScript', 'Ant Design', 'Redux Toolkit', 'RTK Query'],
+    preview: '/projects/movies.gif',
+    website: 'https://movies-db-one-psi.vercel.app/',
   },
 ];
 
@@ -49,16 +31,9 @@ export const Projects = () => {
         {items.map((item) => (
           <CarouselItem key={item.name}>
             <div className="relative mb-2 h-[250px]">
-              <Image
-                src={item.preview}
-                alt={item.name}
-                fill
-                className="rounded-lg object-cover"
-              />
+              <Image src={item.preview} alt={item.name} fill className="rounded-lg object-cover" />
             </div>
-            <p className="text-wrap text-center font-bold md:text-lg">
-              {item.name}
-            </p>
+            <p className="text-wrap text-center font-bold md:text-lg">{item.name}</p>
             <ul className="mt-2 hidden flex-wrap justify-center gap-2 md:flex">
               {item.technologies.map((tech) => (
                 <li key={tech} className="w-fit rounded-lg bg-grey p-1 text-xs">
