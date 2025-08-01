@@ -22,6 +22,12 @@ const items = [
   technologies: ['React', 'TypeScript', 'Ant Design', 'Redux Toolkit', 'RTK Query'],
   preview: '/projects/movies.gif',
   website: 'https://movies-db-one-psi.vercel.app/'
+ },
+  {
+  name: 'Stopwatch',
+  technologies: ['Vue', 'JavaScript', 'SASS'],
+  preview: '/projects/stopwatch.gif',
+  website: 'https://splendid-twilight-6f2f1b.netlify.app/'
  }
 ];
 
